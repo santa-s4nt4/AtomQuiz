@@ -8,8 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		7B53F62219FB884E00ED69B5 /* QuizViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B53F62119FB884E00ED69B5 /* QuizViewController.m */; };
-		7B53F62919FB8A7100ED69B5 /* Untitled.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B53F62719FB8A7100ED69B5 /* Untitled.png */; };
 		7B53F62A19FB8A7100ED69B5 /* Untitled2.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B53F62819FB8A7100ED69B5 /* Untitled2.png */; };
+		7B53F62C19FB91EF00ED69B5 /* Untitled3.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B53F62B19FB91EE00ED69B5 /* Untitled3.png */; };
+		7B53F62F19FB983600ED69B5 /* LastViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B53F62E19FB983600ED69B5 /* LastViewController.m */; };
+		7B53F63119FB9D3500ED69B5 /* Untitled4.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B53F63019FB9D3500ED69B5 /* Untitled4.png */; };
+		7B53F63719FBA4E500ED69B5 /* HB.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B53F63619FBA4E500ED69B5 /* HB.png */; };
+		7B53F63919FBBB2800ED69B5 /* Untitled.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B53F63819FBBB2800ED69B5 /* Untitled.png */; };
 		7BAEB9E419F63DBB0074CD1F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BAEB9E319F63DBB0074CD1F /* main.m */; };
 		7BAEB9E719F63DBB0074CD1F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BAEB9E619F63DBB0074CD1F /* AppDelegate.m */; };
 		7BAEB9EA19F63DBB0074CD1F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BAEB9E919F63DBB0074CD1F /* ViewController.m */; };
@@ -33,8 +37,13 @@
 /* Begin PBXFileReference section */
 		7B53F62019FB884E00ED69B5 /* QuizViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = QuizViewController.h; path = ../QuizViewController.h; sourceTree = "<group>"; };
 		7B53F62119FB884E00ED69B5 /* QuizViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = QuizViewController.m; path = ../QuizViewController.m; sourceTree = "<group>"; };
-		7B53F62719FB8A7100ED69B5 /* Untitled.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Untitled.png; sourceTree = "<group>"; };
 		7B53F62819FB8A7100ED69B5 /* Untitled2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Untitled2.png; sourceTree = "<group>"; };
+		7B53F62B19FB91EE00ED69B5 /* Untitled3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Untitled3.png; sourceTree = "<group>"; };
+		7B53F62D19FB983600ED69B5 /* LastViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LastViewController.h; path = ../LastViewController.h; sourceTree = "<group>"; };
+		7B53F62E19FB983600ED69B5 /* LastViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LastViewController.m; path = ../LastViewController.m; sourceTree = "<group>"; };
+		7B53F63019FB9D3500ED69B5 /* Untitled4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Untitled4.png; sourceTree = "<group>"; };
+		7B53F63619FBA4E500ED69B5 /* HB.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HB.png; sourceTree = "<group>"; };
+		7B53F63819FBBB2800ED69B5 /* Untitled.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Untitled.png; sourceTree = "<group>"; };
 		7BAEB9DE19F63DBB0074CD1F /* Atom Quiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Atom Quiz.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BAEB9E219F63DBB0074CD1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7BAEB9E319F63DBB0074CD1F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -92,15 +101,20 @@
 		7BAEB9E019F63DBB0074CD1F /* Atom Quiz */ = {
 			isa = PBXGroup;
 			children = (
+				7B53F63619FBA4E500ED69B5 /* HB.png */,
 				7BAEB9E519F63DBB0074CD1F /* AppDelegate.h */,
 				7BAEB9E619F63DBB0074CD1F /* AppDelegate.m */,
-				7BAEB9EB19F63DBB0074CD1F /* Main.storyboard */,
-				7B53F62719FB8A7100ED69B5 /* Untitled.png */,
+				7B53F63819FBBB2800ED69B5 /* Untitled.png */,
 				7B53F62819FB8A7100ED69B5 /* Untitled2.png */,
+				7B53F62B19FB91EE00ED69B5 /* Untitled3.png */,
+				7B53F63019FB9D3500ED69B5 /* Untitled4.png */,
+				7BAEB9EB19F63DBB0074CD1F /* Main.storyboard */,
 				7BAEB9E819F63DBB0074CD1F /* ViewController.h */,
 				7BAEB9E919F63DBB0074CD1F /* ViewController.m */,
 				7B53F62019FB884E00ED69B5 /* QuizViewController.h */,
 				7B53F62119FB884E00ED69B5 /* QuizViewController.m */,
+				7B53F62D19FB983600ED69B5 /* LastViewController.h */,
+				7B53F62E19FB983600ED69B5 /* LastViewController.m */,
 				7BAEB9EE19F63DBB0074CD1F /* Images.xcassets */,
 				7BAEB9F019F63DBB0074CD1F /* LaunchScreen.xib */,
 				7BAEB9E119F63DBB0074CD1F /* Supporting Files */,
@@ -214,10 +228,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B53F63919FBBB2800ED69B5 /* Untitled.png in Resources */,
 				7B53F62A19FB8A7100ED69B5 /* Untitled2.png in Resources */,
-				7B53F62919FB8A7100ED69B5 /* Untitled.png in Resources */,
 				7BAEB9ED19F63DBB0074CD1F /* Main.storyboard in Resources */,
+				7B53F63719FBA4E500ED69B5 /* HB.png in Resources */,
+				7B53F63119FB9D3500ED69B5 /* Untitled4.png in Resources */,
 				7BAEB9F219F63DBB0074CD1F /* LaunchScreen.xib in Resources */,
+				7B53F62C19FB91EF00ED69B5 /* Untitled3.png in Resources */,
 				7BAEB9EF19F63DBB0074CD1F /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -239,6 +256,7 @@
 				7BAEB9EA19F63DBB0074CD1F /* ViewController.m in Sources */,
 				7BAEB9E719F63DBB0074CD1F /* AppDelegate.m in Sources */,
 				7BAEB9E419F63DBB0074CD1F /* main.m in Sources */,
+				7B53F62F19FB983600ED69B5 /* LastViewController.m in Sources */,
 				7B53F62219FB884E00ED69B5 /* QuizViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
