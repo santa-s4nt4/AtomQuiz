@@ -9,9 +9,8 @@
 #import <UIKit/UIKit.h>
 
 @interface LastViewController : UIViewController
-{
-    int number;
-}
+
+@property (nonatomic) int correctPercentage;
 
 -(IBAction)face;
 

@@ -14,15 +14,52 @@
 @end
 
 @implementation LastViewController
+{
+    //クイズ画面から正答数を受ける
+    int correctPercentage;
+    
+    //各種ラベル
+    IBOutlet UILabel *percentageLabel;
+    IBOutlet UILabel *levelLabel;
+}
+
+@synthesize correctPercentage;
+
+- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
+{
+    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
+    if (self) {
+        // Custom initialization
+    }
+    return self;
+}
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+    //正答率に応じて「一般常識レベル」の位と画像を設定
+    if (correctPercentage < 30) {
+        levelLabel.text = @"まだまだ覚えきれていません。";
+    } else if (correctPercentage >= 30 && correctPercentage < 90) {
+        levelLabel.text = @"あともう少しで完璧です。";
+    } else if (correctPercentage >= 90){
+        levelLabel.text = @"文句無しに完璧です！";
+    }
+
+    //実際の正答率を表示
+    percentageLabel.text = [NSString stringWithFormat:@"%d %%", correctPercentage];
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
+{
+    // Return YES for supported orientations
+    return (interfaceOrientation == UIInterfaceOrientationPortrait);
 }
 
 /*
