@@ -7,8 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7B9A544D19FB6A4300F3C5E4 /* Untitled.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B9A544C19FB6A4300F3C5E4 /* Untitled.png */; };
-		7B9A544F19FB6F9100F3C5E4 /* Untitled2.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B9A544E19FB6F9100F3C5E4 /* Untitled2.png */; };
+		7B53F62219FB884E00ED69B5 /* QuizViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B53F62119FB884E00ED69B5 /* QuizViewController.m */; };
+		7B53F62919FB8A7100ED69B5 /* Untitled.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B53F62719FB8A7100ED69B5 /* Untitled.png */; };
+		7B53F62A19FB8A7100ED69B5 /* Untitled2.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B53F62819FB8A7100ED69B5 /* Untitled2.png */; };
 		7BAEB9E419F63DBB0074CD1F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BAEB9E319F63DBB0074CD1F /* main.m */; };
 		7BAEB9E719F63DBB0074CD1F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BAEB9E619F63DBB0074CD1F /* AppDelegate.m */; };
 		7BAEB9EA19F63DBB0074CD1F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BAEB9E919F63DBB0074CD1F /* ViewController.m */; };
@@ -30,8 +31,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		7B9A544C19FB6A4300F3C5E4 /* Untitled.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Untitled.png; sourceTree = "<group>"; };
-		7B9A544E19FB6F9100F3C5E4 /* Untitled2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Untitled2.png; sourceTree = "<group>"; };
+		7B53F62019FB884E00ED69B5 /* QuizViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = QuizViewController.h; path = ../QuizViewController.h; sourceTree = "<group>"; };
+		7B53F62119FB884E00ED69B5 /* QuizViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = QuizViewController.m; path = ../QuizViewController.m; sourceTree = "<group>"; };
+		7B53F62719FB8A7100ED69B5 /* Untitled.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Untitled.png; sourceTree = "<group>"; };
+		7B53F62819FB8A7100ED69B5 /* Untitled2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Untitled2.png; sourceTree = "<group>"; };
 		7BAEB9DE19F63DBB0074CD1F /* Atom Quiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Atom Quiz.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BAEB9E219F63DBB0074CD1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7BAEB9E319F63DBB0074CD1F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -89,13 +92,15 @@
 		7BAEB9E019F63DBB0074CD1F /* Atom Quiz */ = {
 			isa = PBXGroup;
 			children = (
-				7B9A544C19FB6A4300F3C5E4 /* Untitled.png */,
-				7B9A544E19FB6F9100F3C5E4 /* Untitled2.png */,
 				7BAEB9E519F63DBB0074CD1F /* AppDelegate.h */,
 				7BAEB9E619F63DBB0074CD1F /* AppDelegate.m */,
 				7BAEB9EB19F63DBB0074CD1F /* Main.storyboard */,
+				7B53F62719FB8A7100ED69B5 /* Untitled.png */,
+				7B53F62819FB8A7100ED69B5 /* Untitled2.png */,
 				7BAEB9E819F63DBB0074CD1F /* ViewController.h */,
 				7BAEB9E919F63DBB0074CD1F /* ViewController.m */,
+				7B53F62019FB884E00ED69B5 /* QuizViewController.h */,
+				7B53F62119FB884E00ED69B5 /* QuizViewController.m */,
 				7BAEB9EE19F63DBB0074CD1F /* Images.xcassets */,
 				7BAEB9F019F63DBB0074CD1F /* LaunchScreen.xib */,
 				7BAEB9E119F63DBB0074CD1F /* Supporting Files */,
@@ -209,8 +214,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7B9A544F19FB6F9100F3C5E4 /* Untitled2.png in Resources */,
-				7B9A544D19FB6A4300F3C5E4 /* Untitled.png in Resources */,
+				7B53F62A19FB8A7100ED69B5 /* Untitled2.png in Resources */,
+				7B53F62919FB8A7100ED69B5 /* Untitled.png in Resources */,
 				7BAEB9ED19F63DBB0074CD1F /* Main.storyboard in Resources */,
 				7BAEB9F219F63DBB0074CD1F /* LaunchScreen.xib in Resources */,
 				7BAEB9EF19F63DBB0074CD1F /* Images.xcassets in Resources */,
@@ -234,6 +239,7 @@
 				7BAEB9EA19F63DBB0074CD1F /* ViewController.m in Sources */,
 				7BAEB9E719F63DBB0074CD1F /* AppDelegate.m in Sources */,
 				7BAEB9E419F63DBB0074CD1F /* main.m in Sources */,
+				7B53F62219FB884E00ED69B5 /* QuizViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
