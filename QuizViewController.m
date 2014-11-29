@@ -50,6 +50,8 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
+    [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleLightContent]; //ステータスバーを白色にする
+    
     // 問題を格納する可変配列のproblemSetを初期化
     problemSet = [[NSMutableArray alloc] init];
     
@@ -242,7 +244,7 @@
 
 -(IBAction)home
 {
-    [self.navigationController popViewControllerAnimated:YES]; //Topに戻る
+    [self.navigationController popViewControllerAnimated:YES]; //一つ前の画面に戻る
 }
 
 @end

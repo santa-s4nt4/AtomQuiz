@@ -38,6 +38,8 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
+    [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleLightContent]; //ステータスバーを白色にする
+    
     //正答率に応じて「一般常識レベル」の位と画像を設定
     if (correctPercentage < 30) {
         levelLabel.text = @"まだまだ覚えきれていません。";
@@ -94,7 +96,7 @@
 
 -(IBAction)home
 {
-    [self.navigationController popViewControllerAnimated:YES]; //Topに戻る
+    [self.navigationController popToRootViewControllerAnimated:YES]; //ルートまで一気に戻る
 }
 
 @end
