@@ -8,10 +8,14 @@
 
 #import <UIKit/UIKit.h>
 
+#import <AVFoundation/AVFoundation.h>
+
 #import "LastViewController.h"
 #import "Problem.h"
 
 @interface QuizViewController : UIViewController
+
+@property AVAudioPlayer *seikai_sound;
 
 - (void)shuffleProblemSet;
 - (void)nextProblem;

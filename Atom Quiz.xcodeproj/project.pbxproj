@@ -14,6 +14,7 @@
 		7B53F63119FB9D3500ED69B5 /* Untitled4.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B53F63019FB9D3500ED69B5 /* Untitled4.png */; };
 		7B53F63719FBA4E500ED69B5 /* HB.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B53F63619FBA4E500ED69B5 /* HB.png */; };
 		7B53F63919FBBB2800ED69B5 /* Untitled.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B53F63819FBBB2800ED69B5 /* Untitled.png */; };
+		7B8F60F01A2A163800C8FA56 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B8F60EF1A2A163800C8FA56 /* AVFoundation.framework */; };
 		7BAEB9E419F63DBB0074CD1F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BAEB9E319F63DBB0074CD1F /* main.m */; };
 		7BAEB9E719F63DBB0074CD1F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BAEB9E619F63DBB0074CD1F /* AppDelegate.m */; };
 		7BAEB9EA19F63DBB0074CD1F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BAEB9E919F63DBB0074CD1F /* ViewController.m */; };
@@ -26,6 +27,8 @@
 		7BB8A20019FBDCA5004C1BB3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BB8A1FF19FBDCA5004C1BB3 /* Foundation.framework */; };
 		7BB8A20219FBDCBE004C1BB3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BB8A20119FBDCBE004C1BB3 /* CoreGraphics.framework */; };
 		7BB8A20819FC0A79004C1BB3 /* Problem.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB8A20719FC0A79004C1BB3 /* Problem.m */; };
+		7BF961731A2A0FBA00CD1668 /* AdobeMingStd-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7BF961721A2A0FBA00CD1668 /* AdobeMingStd-Light.otf */; };
+		7BF961751A2A14FE00CD1668 /* Seikai02-1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7BF961741A2A14FE00CD1668 /* Seikai02-1.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +51,7 @@
 		7B53F63019FB9D3500ED69B5 /* Untitled4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Untitled4.png; sourceTree = "<group>"; };
 		7B53F63619FBA4E500ED69B5 /* HB.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HB.png; sourceTree = "<group>"; };
 		7B53F63819FBBB2800ED69B5 /* Untitled.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Untitled.png; sourceTree = "<group>"; };
+		7B8F60EF1A2A163800C8FA56 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		7BAEB9DE19F63DBB0074CD1F /* Atom Quiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Atom Quiz.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BAEB9E219F63DBB0074CD1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7BAEB9E319F63DBB0074CD1F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -67,6 +71,8 @@
 		7BB8A20119FBDCBE004C1BB3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		7BB8A20619FC0A79004C1BB3 /* Problem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Problem.h; path = ../Problem.h; sourceTree = "<group>"; };
 		7BB8A20719FC0A79004C1BB3 /* Problem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Problem.m; path = ../Problem.m; sourceTree = "<group>"; };
+		7BF961721A2A0FBA00CD1668 /* AdobeMingStd-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AdobeMingStd-Light.otf"; sourceTree = "<group>"; };
+		7BF961741A2A14FE00CD1668 /* Seikai02-1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Seikai02-1.mp3"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B8F60F01A2A163800C8FA56 /* AVFoundation.framework in Frameworks */,
 				7BB8A20219FBDCBE004C1BB3 /* CoreGraphics.framework in Frameworks */,
 				7BB8A20019FBDCA5004C1BB3 /* Foundation.framework in Frameworks */,
 				7BB8A1FE19FBDC92004C1BB3 /* UIKit.framework in Frameworks */,
@@ -94,6 +101,7 @@
 		7BAEB9D519F63DBB0074CD1F = {
 			isa = PBXGroup;
 			children = (
+				7B8F60EF1A2A163800C8FA56 /* AVFoundation.framework */,
 				7BB8A20119FBDCBE004C1BB3 /* CoreGraphics.framework */,
 				7BB8A1FF19FBDCA5004C1BB3 /* Foundation.framework */,
 				7BB8A1FD19FBDC92004C1BB3 /* UIKit.framework */,
@@ -118,6 +126,8 @@
 			children = (
 				7BAEB9E519F63DBB0074CD1F /* AppDelegate.h */,
 				7BAEB9E619F63DBB0074CD1F /* AppDelegate.m */,
+				7BF961741A2A14FE00CD1668 /* Seikai02-1.mp3 */,
+				7BF961721A2A0FBA00CD1668 /* AdobeMingStd-Light.otf */,
 				7B53F63619FBA4E500ED69B5 /* HB.png */,
 				7B53F63819FBBB2800ED69B5 /* Untitled.png */,
 				7B53F62819FB8A7100ED69B5 /* Untitled2.png */,
@@ -248,8 +258,10 @@
 				7B53F63919FBBB2800ED69B5 /* Untitled.png in Resources */,
 				7B53F62A19FB8A7100ED69B5 /* Untitled2.png in Resources */,
 				7BAEB9ED19F63DBB0074CD1F /* Main.storyboard in Resources */,
+				7BF961731A2A0FBA00CD1668 /* AdobeMingStd-Light.otf in Resources */,
 				7B53F63719FBA4E500ED69B5 /* HB.png in Resources */,
 				7B53F63119FB9D3500ED69B5 /* Untitled4.png in Resources */,
+				7BF961751A2A14FE00CD1668 /* Seikai02-1.mp3 in Resources */,
 				7BAEB9F219F63DBB0074CD1F /* LaunchScreen.xib in Resources */,
 				7B53F62C19FB91EF00ED69B5 /* Untitled3.png in Resources */,
 				7BAEB9EF19F63DBB0074CD1F /* Images.xcassets in Resources */,

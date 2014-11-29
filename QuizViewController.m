@@ -52,8 +52,13 @@
     
     [problemText setEditable:NO];
     [problemText setSelectable:NO];
+    problemText.font = [UIFont fontWithName:@"AdobeMingStd-Light" size:40];
     
     [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleLightContent]; //ステータスバーを白色にする
+    
+    NSString *path = [[NSBundle mainBundle] pathForResource:@"Seikai02-1" ofType:@"mp3"];
+    NSURL *url = [NSURL fileURLWithPath:path];
+    self.seikai_sound = [[AVAudioPlayer alloc] initWithContentsOfURL:url error:NULL];
     
     // 問題を格納する可変配列のproblemSetを初期化
     problemSet = [[NSMutableArray alloc] init];
@@ -159,6 +164,7 @@
     if ([[problemSet objectAtIndex:currentProblem] getA] == 1) {
         //　正解数のカウントを増やす
         correctAnswers++;
+        [self.seikai_sound play];
     }
     // 次の問題へ
     [self nextProblem];
@@ -170,6 +176,7 @@
     if ([[problemSet objectAtIndex:currentProblem] getA] == 2) {
         //　正解数のカウントを増やす
         correctAnswers++;
+        [self.seikai_sound play];
     }
     // 次の問題へ
     [self nextProblem];
@@ -181,7 +188,8 @@
     if ([[problemSet objectAtIndex:currentProblem] getA] == 3) {
         //　正解数のカウントを増やす
         correctAnswers++;
-    }
+        [self.seikai_sound play];
+        }
     // 次の問題へ
     [self nextProblem];
 }
