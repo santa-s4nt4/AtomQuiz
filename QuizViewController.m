@@ -50,6 +50,9 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
+    [problemText setEditable:NO];
+    [problemText setSelectable:NO];
+    
     [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleLightContent]; //ステータスバーを白色にする
     
     // 問題を格納する可変配列のproblemSetを初期化
