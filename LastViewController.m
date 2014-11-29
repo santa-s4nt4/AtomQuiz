@@ -41,9 +41,11 @@
     //正答率に応じて「一般常識レベル」の位と画像を設定
     if (correctPercentage < 30) {
         levelLabel.text = @"まだまだ覚えきれていません。";
-    } else if (correctPercentage >= 30 && correctPercentage < 90) {
+    } else if (correctPercentage >= 31 && correctPercentage < 79) {
+        levelLabel.text = @"もっと頑張れよ！";
+    } else if (correctPercentage >= 80 && correctPercentage < 99) {
         levelLabel.text = @"あともう少しで完璧です。";
-    } else if (correctPercentage >= 90){
+    } else if (correctPercentage >= 100){
         levelLabel.text = @"文句無しに完璧です！";
     }
 
@@ -92,7 +94,7 @@
 
 -(IBAction)home
 {
-    [self dismissViewControllerAnimated:YES completion:nil]; //Topに戻る
+    [self.navigationController popViewControllerAnimated:YES]; //Topに戻る
 }
 
 @end
