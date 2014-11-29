@@ -210,7 +210,7 @@
     //正答率を算出
     int percentage = (correctAnswers * 100 / totalProblems) ;
     
-    //LastViewController（RVC）のインスタンスを作成し、
+    //LastViewController（RVC）のインスタンスを作成し、//
     //RVCクラスのメンバー変数である「correctPercentage」に値を渡す
     if ([[segue identifier] isEqualToString:@"toLastView"]) {
         LastViewController *rvc = (LastViewController*)[segue destinationViewController];
