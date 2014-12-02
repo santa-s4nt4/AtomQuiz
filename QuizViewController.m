@@ -56,7 +56,7 @@
     
     [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleLightContent]; //ステータスバーを白色にする
     
-    NSString *path = [[NSBundle mainBundle] pathForResource:@"Seikai02-1" ofType:@"mp3"];
+    NSString *path = [[NSBundle mainBundle] pathForResource:@"seikai" ofType:@"mp3"];
     NSURL *url = [NSURL fileURLWithPath:path];
     self.seikai_sound = [[AVAudioPlayer alloc] initWithContentsOfURL:url error:NULL];
     
@@ -165,6 +165,7 @@
         //　正解数のカウントを増やす
         correctAnswers++;
         [self.seikai_sound play];
+        //[NSThread sleepForTimeInterval:2.04f]; //2.04秒待ってから動く動作
     }
     // 次の問題へ
     [self nextProblem];
@@ -177,6 +178,7 @@
         //　正解数のカウントを増やす
         correctAnswers++;
         [self.seikai_sound play];
+        //[NSThread sleepForTimeInterval:2.04f]; //2.04秒待ってから動く動作
     }
     // 次の問題へ
     [self nextProblem];
@@ -189,7 +191,8 @@
         //　正解数のカウントを増やす
         correctAnswers++;
         [self.seikai_sound play];
-        }
+        //[NSThread sleepForTimeInterval:2.04f]; //2.04秒待ってから動く動作
+    }
     // 次の問題へ
     [self nextProblem];
 }

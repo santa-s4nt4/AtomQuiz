@@ -9,7 +9,7 @@
 #import "LastViewController.h"
 #import <Social/Social.h>
 
-@interface LastViewController ()
+@interface UIViewController ()
 
 @end
 
@@ -37,6 +37,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+
+    levelLabel.font = [UIFont fontWithName:@"AdobeMingStd-Light" size:22];
     
     [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleLightContent]; //ステータスバーを白色にする
     
@@ -81,7 +83,7 @@
     SLComposeViewController *fbVC =
     [SLComposeViewController composeViewControllerForServiceType:SLServiceTypeFacebook];
     
-    [fbVC setInitialText:@"Let's play Quiz!"];
+    [fbVC setInitialText:@"Why don't you play Atom Quiz?"];
     [self presentViewController:fbVC animated:YES completion:nil];
 }
 
@@ -90,7 +92,7 @@
     SLComposeViewController*twVC =
     [SLComposeViewController composeViewControllerForServiceType:SLServiceTypeTwitter];
     
-    [twVC setInitialText:@"Let's play Quiz!"];
+    [twVC setInitialText:@"Why don't you play Atom Quiz?"];
     [self presentViewController:twVC animated:YES completion:nil];
 }
 

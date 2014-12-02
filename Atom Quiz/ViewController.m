@@ -23,7 +23,8 @@
     // Do any additional setup after loading the view, typically from a nib.
     
     [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleLightContent]; //ステータスバーを白色にする
-}
+    
+    }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
@@ -35,7 +36,7 @@
     SLComposeViewController *fbVC =
     [SLComposeViewController composeViewControllerForServiceType:SLServiceTypeFacebook];
     
-    [fbVC setInitialText:@"Let's play Quiz!"];
+    [fbVC setInitialText:@"Why don't you play Atom Quiz?"];
     [self presentViewController:fbVC animated:YES completion:nil];
 }
 
@@ -44,14 +45,14 @@
     SLComposeViewController*twVC =
     [SLComposeViewController composeViewControllerForServiceType:SLServiceTypeTwitter];
     
-    [twVC setInitialText:@"Let's play Quiz!"];
+    [twVC setInitialText:@"Why don't you play Atom Quiz?"];
     [self presentViewController:twVC animated:YES completion:nil];
 }
 
 -(IBAction)explanation
 {
     UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"説明"
-                                                    message:@"このアプリは原子記号クイズです。"
+                                                    message:@"このアプリは原子記号クイズです。※正解すると音が鳴ります！音量に注意してください。マナーモードでは音は鳴りません。"
                                                    delegate:self
                                           cancelButtonTitle:@"OK"
                                           otherButtonTitles:nil];
