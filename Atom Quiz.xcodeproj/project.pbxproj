@@ -16,10 +16,6 @@
 		7B53F63919FBBB2800ED69B5 /* Untitled.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B53F63819FBBB2800ED69B5 /* Untitled.png */; };
 		7B8F60F01A2A163800C8FA56 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B8F60EF1A2A163800C8FA56 /* AVFoundation.framework */; };
 		7BA1C76C1A2DD71D00D1BF76 /* seikai.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7BA1C76B1A2DD71D00D1BF76 /* seikai.mp3 */; };
-		7BA1C7781A2DD9C600D1BF76 /* setsumei s.mov in Resources */ = {isa = PBXBuildFile; fileRef = 7BA1C7771A2DD9C600D1BF76 /* setsumei s.mov */; };
-		7BA1C77C1A2DDA1D00D1BF76 /* face.mov in Resources */ = {isa = PBXBuildFile; fileRef = 7BA1C77B1A2DDA1D00D1BF76 /* face.mov */; };
-		7BA1C77E1A2DDA5C00D1BF76 /* tw.mov in Resources */ = {isa = PBXBuildFile; fileRef = 7BA1C77D1A2DDA5C00D1BF76 /* tw.mov */; };
-		7BA1C7801A2DDAA400D1BF76 /* home s.mov in Resources */ = {isa = PBXBuildFile; fileRef = 7BA1C77F1A2DDAA400D1BF76 /* home s.mov */; };
 		7BA1C7821A2DE44900D1BF76 /* start s.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7BA1C7811A2DE44900D1BF76 /* start s.mp3 */; };
 		7BAEB9E419F63DBB0074CD1F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BAEB9E319F63DBB0074CD1F /* main.m */; };
 		7BAEB9E719F63DBB0074CD1F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BAEB9E619F63DBB0074CD1F /* AppDelegate.m */; };
@@ -33,6 +29,11 @@
 		7BB8A20019FBDCA5004C1BB3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BB8A1FF19FBDCA5004C1BB3 /* Foundation.framework */; };
 		7BB8A20219FBDCBE004C1BB3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BB8A20119FBDCBE004C1BB3 /* CoreGraphics.framework */; };
 		7BB8A20819FC0A79004C1BB3 /* Problem.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB8A20719FC0A79004C1BB3 /* Problem.m */; };
+		7BC560101A332762002A3E26 /* select.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7BC5600F1A332762002A3E26 /* select.jpg */; };
+		7BC560131A3333DF002A3E26 /* secondQuizViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BC560121A3333DF002A3E26 /* secondQuizViewController.m */; };
+		7BC560161A3338D1002A3E26 /* selectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BC560151A3338D1002A3E26 /* selectViewController.m */; };
+		7BC5601C1A333D0D002A3E26 /* secondProblem.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BC5601B1A333D0D002A3E26 /* secondProblem.m */; };
+		7BC5601F1A333FE7002A3E26 /* secondLastViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BC5601E1A333FE7002A3E26 /* secondLastViewController.m */; };
 		7BF961731A2A0FBA00CD1668 /* AdobeMingStd-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7BF961721A2A0FBA00CD1668 /* AdobeMingStd-Light.otf */; };
 /* End PBXBuildFile section */
 
@@ -58,10 +59,6 @@
 		7B53F63819FBBB2800ED69B5 /* Untitled.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Untitled.png; sourceTree = "<group>"; };
 		7B8F60EF1A2A163800C8FA56 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		7BA1C76B1A2DD71D00D1BF76 /* seikai.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = seikai.mp3; sourceTree = "<group>"; };
-		7BA1C7771A2DD9C600D1BF76 /* setsumei s.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = "setsumei s.mov"; sourceTree = "<group>"; };
-		7BA1C77B1A2DDA1D00D1BF76 /* face.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = face.mov; sourceTree = "<group>"; };
-		7BA1C77D1A2DDA5C00D1BF76 /* tw.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = tw.mov; sourceTree = "<group>"; };
-		7BA1C77F1A2DDAA400D1BF76 /* home s.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = "home s.mov"; sourceTree = "<group>"; };
 		7BA1C7811A2DE44900D1BF76 /* start s.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "start s.mp3"; sourceTree = "<group>"; };
 		7BAEB9DE19F63DBB0074CD1F /* Atom Quiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Atom Quiz.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BAEB9E219F63DBB0074CD1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -82,6 +79,15 @@
 		7BB8A20119FBDCBE004C1BB3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		7BB8A20619FC0A79004C1BB3 /* Problem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Problem.h; path = ../Problem.h; sourceTree = "<group>"; };
 		7BB8A20719FC0A79004C1BB3 /* Problem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Problem.m; path = ../Problem.m; sourceTree = "<group>"; };
+		7BC5600F1A332762002A3E26 /* select.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = select.jpg; sourceTree = "<group>"; };
+		7BC560111A3333DF002A3E26 /* secondQuizViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = secondQuizViewController.h; path = ../secondQuizViewController.h; sourceTree = "<group>"; };
+		7BC560121A3333DF002A3E26 /* secondQuizViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = secondQuizViewController.m; path = ../secondQuizViewController.m; sourceTree = "<group>"; };
+		7BC560141A3338D1002A3E26 /* selectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = selectViewController.h; path = ../selectViewController.h; sourceTree = "<group>"; };
+		7BC560151A3338D1002A3E26 /* selectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = selectViewController.m; path = ../selectViewController.m; sourceTree = "<group>"; };
+		7BC5601A1A333D0D002A3E26 /* secondProblem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = secondProblem.h; path = ../secondProblem.h; sourceTree = "<group>"; };
+		7BC5601B1A333D0D002A3E26 /* secondProblem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = secondProblem.m; path = ../secondProblem.m; sourceTree = "<group>"; };
+		7BC5601D1A333FE7002A3E26 /* secondLastViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = secondLastViewController.h; path = ../secondLastViewController.h; sourceTree = "<group>"; };
+		7BC5601E1A333FE7002A3E26 /* secondLastViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = secondLastViewController.m; path = ../secondLastViewController.m; sourceTree = "<group>"; };
 		7BF961721A2A0FBA00CD1668 /* AdobeMingStd-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AdobeMingStd-Light.otf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -137,10 +143,6 @@
 				7BAEB9E519F63DBB0074CD1F /* AppDelegate.h */,
 				7BAEB9E619F63DBB0074CD1F /* AppDelegate.m */,
 				7BA1C7811A2DE44900D1BF76 /* start s.mp3 */,
-				7BA1C7771A2DD9C600D1BF76 /* setsumei s.mov */,
-				7BA1C77B1A2DDA1D00D1BF76 /* face.mov */,
-				7BA1C77D1A2DDA5C00D1BF76 /* tw.mov */,
-				7BA1C77F1A2DDAA400D1BF76 /* home s.mov */,
 				7BA1C76B1A2DD71D00D1BF76 /* seikai.mp3 */,
 				7BF961721A2A0FBA00CD1668 /* AdobeMingStd-Light.otf */,
 				7B53F63619FBA4E500ED69B5 /* HB.png */,
@@ -148,15 +150,24 @@
 				7B53F62819FB8A7100ED69B5 /* Untitled2.png */,
 				7B53F62B19FB91EE00ED69B5 /* Untitled3.png */,
 				7B53F63019FB9D3500ED69B5 /* Untitled4.png */,
+				7BC5600F1A332762002A3E26 /* select.jpg */,
 				7BAEB9EB19F63DBB0074CD1F /* Main.storyboard */,
 				7BAEB9E819F63DBB0074CD1F /* ViewController.h */,
 				7BAEB9E919F63DBB0074CD1F /* ViewController.m */,
+				7BC560141A3338D1002A3E26 /* selectViewController.h */,
+				7BC560151A3338D1002A3E26 /* selectViewController.m */,
 				7B53F62019FB884E00ED69B5 /* QuizViewController.h */,
 				7B53F62119FB884E00ED69B5 /* QuizViewController.m */,
+				7BC560111A3333DF002A3E26 /* secondQuizViewController.h */,
+				7BC560121A3333DF002A3E26 /* secondQuizViewController.m */,
 				7B53F62D19FB983600ED69B5 /* LastViewController.h */,
 				7B53F62E19FB983600ED69B5 /* LastViewController.m */,
+				7BC5601D1A333FE7002A3E26 /* secondLastViewController.h */,
+				7BC5601E1A333FE7002A3E26 /* secondLastViewController.m */,
 				7BB8A20619FC0A79004C1BB3 /* Problem.h */,
 				7BB8A20719FC0A79004C1BB3 /* Problem.m */,
+				7BC5601A1A333D0D002A3E26 /* secondProblem.h */,
+				7BC5601B1A333D0D002A3E26 /* secondProblem.m */,
 				7BAEB9EE19F63DBB0074CD1F /* Images.xcassets */,
 				7BAEB9F019F63DBB0074CD1F /* LaunchScreen.xib */,
 				7BAEB9E119F63DBB0074CD1F /* Supporting Files */,
@@ -271,15 +282,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7BA1C7781A2DD9C600D1BF76 /* setsumei s.mov in Resources */,
-				7BA1C77C1A2DDA1D00D1BF76 /* face.mov in Resources */,
 				7B53F63919FBBB2800ED69B5 /* Untitled.png in Resources */,
-				7BA1C7801A2DDAA400D1BF76 /* home s.mov in Resources */,
-				7BA1C77E1A2DDA5C00D1BF76 /* tw.mov in Resources */,
 				7B53F62A19FB8A7100ED69B5 /* Untitled2.png in Resources */,
 				7BAEB9ED19F63DBB0074CD1F /* Main.storyboard in Resources */,
 				7BF961731A2A0FBA00CD1668 /* AdobeMingStd-Light.otf in Resources */,
 				7BA1C7821A2DE44900D1BF76 /* start s.mp3 in Resources */,
+				7BC560101A332762002A3E26 /* select.jpg in Resources */,
 				7BA1C76C1A2DD71D00D1BF76 /* seikai.mp3 in Resources */,
 				7B53F63719FBA4E500ED69B5 /* HB.png in Resources */,
 				7B53F63119FB9D3500ED69B5 /* Untitled4.png in Resources */,
@@ -303,12 +311,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7BC560161A3338D1002A3E26 /* selectViewController.m in Sources */,
 				7BAEB9EA19F63DBB0074CD1F /* ViewController.m in Sources */,
 				7BAEB9E719F63DBB0074CD1F /* AppDelegate.m in Sources */,
+				7BC560131A3333DF002A3E26 /* secondQuizViewController.m in Sources */,
+				7BC5601F1A333FE7002A3E26 /* secondLastViewController.m in Sources */,
 				7BAEB9E419F63DBB0074CD1F /* main.m in Sources */,
 				7BB8A20819FC0A79004C1BB3 /* Problem.m in Sources */,
 				7B53F62F19FB983600ED69B5 /* LastViewController.m in Sources */,
 				7B53F62219FB884E00ED69B5 /* QuizViewController.m in Sources */,
+				7BC5601C1A333D0D002A3E26 /* secondProblem.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

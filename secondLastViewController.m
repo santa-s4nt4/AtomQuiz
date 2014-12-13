@@ -1,19 +1,19 @@
 //
-//  LastViewController.m
+//  secondLastViewController.m
 //  Atom Quiz
 //
-//  Created by santa naruse on 2014/10/25.
+//  Created by santa naruse on 2014/12/06.
 //  Copyright (c) 2014年 santa naruse. All rights reserved.
 //
 
-#import "LastViewController.h"
+#import "secondLastViewController.h"
 #import <Social/Social.h>
 
-@interface UIViewController ()
+@interface secondLastViewController ()
 
 @end
 
-@implementation LastViewController
+@implementation secondLastViewController
 {
     //クイズ画面から正答数を受ける
     int correctPercentage;
@@ -37,7 +37,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-
+    
     percentageLabel.font = [UIFont fontWithName:@"AdobeMingStd-Light" size:55];
     levelLabel.font = [UIFont fontWithName:@"AdobeMingStd-Light" size:22];
     
@@ -53,7 +53,7 @@
     } else if (correctPercentage >= 100){
         levelLabel.text = @"文句無しに完璧です!";
     }
-
+    
     //実際の正答率を表示
     percentageLabel.text = [NSString stringWithFormat:@"%d %%", correctPercentage];
 }
@@ -68,16 +68,6 @@
     // Return YES for supported orientations
     return (interfaceOrientation == UIInterfaceOrientationPortrait);
 }
-
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
 
 -(IBAction)face
 {
@@ -101,5 +91,15 @@
 {
     [self.navigationController popToRootViewControllerAnimated:YES]; //ルートまで一気に戻る
 }
+
+/*
+#pragma mark - Navigation
+
+// In a storyboard-based application, you will often want to do a little preparation before navigation
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+    // Get the new view controller using [segue destinationViewController].
+    // Pass the selected object to the new view controller.
+}
+*/
 
 @end

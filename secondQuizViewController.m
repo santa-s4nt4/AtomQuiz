@@ -1,18 +1,18 @@
 //
-//  QuizViewController.m
+//  secondQuizViewController.m
 //  Atom Quiz
 //
-//  Created by santa naruse on 2014/10/25.
+//  Created by santa naruse on 2014/12/06.
 //  Copyright (c) 2014年 santa naruse. All rights reserved.
 //
 
-#import "QuizViewController.h"
+#import "secondQuizViewController.h"
 
-@interface QuizViewController ()
+@interface secondQuizViewController ()
 
 @end
 
-@implementation QuizViewController
+@implementation secondQuizViewController
 {
     //問題（Quizクラスのインスタンス）を格納する配列
     NSMutableArray *problemSet;
@@ -118,11 +118,10 @@
     }
 }
 
-// 問題を追加する
 - (void)addProblem : (NSString *)q c1:(NSString *)c1 c2:(NSString *)c2 c3:(NSString *)c3 ans:(int)a{
     
     // 新しくProblemクラスのインスタンスを生成・初期化し、問題文と答えを格納
-    Problem *p = [Problem initProblem];
+    secondProblem *p = [secondProblem initProblem];
     [p setData:q c1:c1 c2:c2 c3:c3 ansNo:a];
     
     // 提示問題数をカウントアップ
@@ -234,16 +233,9 @@
     }
 }
 
-
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
-}
-
-- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
-{
-    // Return YES for supported orientations
-    return (interfaceOrientation == UIInterfaceOrientationPortrait);
 }
 
 /*
@@ -255,10 +247,5 @@
     // Pass the selected object to the new view controller.
 }
 */
-
--(IBAction)home
-{
-    [self.navigationController popToRootViewControllerAnimated:YES]; //ルートまで一気に戻る
-}
 
 @end
