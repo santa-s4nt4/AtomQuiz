@@ -27,6 +27,8 @@
     //問題文を表示するText View
     IBOutlet UITextView *problemText;
     
+    
+    
     // 選択肢を表示するLabel
     IBOutlet UILabel *lbChoise1;
     IBOutlet UILabel *lbChoise2;
