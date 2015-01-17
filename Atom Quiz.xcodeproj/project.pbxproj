@@ -35,6 +35,7 @@
 		7BC5601F1A333FE7002A3E26 /* secondLastViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BC5601E1A333FE7002A3E26 /* secondLastViewController.m */; };
 		7BF961731A2A0FBA00CD1668 /* AdobeMingStd-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7BF961721A2A0FBA00CD1668 /* AdobeMingStd-Light.otf */; };
 		8110AFED1A6A14F5003F1D32 /* fuseikai.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8110AFEC1A6A14F5003F1D32 /* fuseikai.mp3 */; };
+		8163341D1A6A5AC50071CDE1 /* ヒラギノ丸ゴ ProN W4.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8163341C1A6A5AC50071CDE1 /* ヒラギノ丸ゴ ProN W4.otf */; };
 		81B4A0961A59907A000880D0 /* huseikai.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 81B4A0951A59907A000880D0 /* huseikai.mp3 */; };
 /* End PBXBuildFile section */
 
@@ -90,6 +91,7 @@
 		7BC5601E1A333FE7002A3E26 /* secondLastViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = secondLastViewController.m; path = ../secondLastViewController.m; sourceTree = "<group>"; };
 		7BF961721A2A0FBA00CD1668 /* AdobeMingStd-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AdobeMingStd-Light.otf"; sourceTree = "<group>"; };
 		8110AFEC1A6A14F5003F1D32 /* fuseikai.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = fuseikai.mp3; sourceTree = "<group>"; };
+		8163341C1A6A5AC50071CDE1 /* ヒラギノ丸ゴ ProN W4.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ヒラギノ丸ゴ ProN W4.otf"; sourceTree = "<group>"; };
 		81B4A0951A59907A000880D0 /* huseikai.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = huseikai.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -148,6 +150,7 @@
 				8110AFEC1A6A14F5003F1D32 /* fuseikai.mp3 */,
 				81B4A0951A59907A000880D0 /* huseikai.mp3 */,
 				7BF961721A2A0FBA00CD1668 /* AdobeMingStd-Light.otf */,
+				8163341C1A6A5AC50071CDE1 /* ヒラギノ丸ゴ ProN W4.otf */,
 				7B53F63619FBA4E500ED69B5 /* HB.png */,
 				7B53F63819FBBB2800ED69B5 /* Untitled.png */,
 				7B53F62819FB8A7100ED69B5 /* Untitled2.png */,
@@ -287,6 +290,7 @@
 			files = (
 				7B53F63919FBBB2800ED69B5 /* Untitled.png in Resources */,
 				7B53F62A19FB8A7100ED69B5 /* Untitled2.png in Resources */,
+				8163341D1A6A5AC50071CDE1 /* ヒラギノ丸ゴ ProN W4.otf in Resources */,
 				7BAEB9ED19F63DBB0074CD1F /* Main.storyboard in Resources */,
 				7BF961731A2A0FBA00CD1668 /* AdobeMingStd-Light.otf in Resources */,
 				7BC560101A332762002A3E26 /* select.jpg in Resources */,

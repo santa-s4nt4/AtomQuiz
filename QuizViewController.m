@@ -70,7 +70,7 @@
     
     // 例　[self addProblem:@"1月1日は何の日？" c1:@"クリスマス" c2:@"元旦" c3:@"大晦日" ans:2];
     // ======================     ここから下に命令を追加   ==================
-    [self addProblem:@"亜鉛" c1:@"Zn" c2:@"He" c3:@"Mg" ans:1];
+    //[self addProblem:@"亜鉛" c1:@"Zn" c2:@"He" c3:@"Mg" ans:1];
     [self addProblem:@"アルゴン" c1:@"Ne" c2:@"Ar" c3:@"Al" ans:2];
     [self addProblem:@"窒素" c1:@"O" c2:@"P" c3:@"N" ans:3];
     [self addProblem:@"硫黄" c1:@"S" c2:@"Si" c3:@"Hg" ans:1];

@@ -44,7 +44,7 @@
     [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleLightContent]; //ステータスバーを白色にする
     
     //正答率に応じて「一般常識レベル」の位と画像を設定
-    if (correctPercentage < 30) {
+    if (correctPercentage >= 0 && correctPercentage <= 30) {
         levelLabel.text = @"まだまだ覚えきれていません!";
     } else if (correctPercentage >= 31 && correctPercentage < 79) {
         levelLabel.text = @"もっと頑張れよ!";
