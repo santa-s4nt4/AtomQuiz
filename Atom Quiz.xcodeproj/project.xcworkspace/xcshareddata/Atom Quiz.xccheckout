@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>C3E0C7DC-B364-4610-90E5-3A221EDE50ED</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Atom Quiz</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>E3B0C98824073759DBA4F1B752EE2073A3166A3E</key>
+		<string>https://github.com/santakun/AtomQuiz.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Atom Quiz.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>E3B0C98824073759DBA4F1B752EE2073A3166A3E</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/santakun/AtomQuiz.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>E3B0C98824073759DBA4F1B752EE2073A3166A3E</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>E3B0C98824073759DBA4F1B752EE2073A3166A3E</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Atom%20Quiz</string>
+		</dict>
+	</array>
+</dict>
+</plist>
