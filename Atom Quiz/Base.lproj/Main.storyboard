@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6250" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="aHJ-tt-4oA">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="aHJ-tt-4oA">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -88,10 +88,22 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="select.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="o0o-U9-pJ8">
                                 <rect key="frame" x="-5" y="-6" width="331" height="579"/>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="原子記号" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IAR-f1-Ao7">
+                                <rect key="frame" x="41" y="148" width="238" height="61"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="41"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="化学式" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kEE-Rh-j99">
+                                <rect key="frame" x="41" y="280" width="238" height="61"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="41"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GEk-Mb-rHd">
                                 <rect key="frame" x="41" y="148" width="238" height="61"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="41"/>
-                                <state key="normal" title="原子記号">
+                                <state key="normal">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -113,22 +125,26 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qmb-A9-Gm5">
                                 <rect key="frame" x="41" y="280" width="238" height="61"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="41"/>
-                                <state key="normal" title="化学反応式">
+                                <state key="normal">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="3zr-fG-ctF" kind="push" id="agF-On-jbh"/>
+                                    <segue destination="3zr-fG-ctF" kind="push" id="UZh-2G-Trj"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="QNC-hL-IKP"/>
+                    <connections>
+                        <outlet property="atomLabel" destination="IAR-f1-Ao7" id="xoJ-iF-b9Y"/>
+                        <outlet property="chemicalLabel" destination="kEE-Rh-j99" id="vXr-qp-fzF"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ITU-20-syH" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1225" y="-123"/>
+            <point key="canvasLocation" x="1232" y="-123"/>
         </scene>
         <!--Quiz View Controller-->
         <scene sceneID="pCx-NQ-dE0">
@@ -219,7 +235,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" bounces="NO" scrollEnabled="NO" text="Quiz" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="DgR-2p-sQJ">
-                                <rect key="frame" x="16" y="110" width="288" height="187"/>
+                                <rect key="frame" x="7" y="110" width="304" height="187"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="40"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -334,7 +350,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" bounces="NO" scrollEnabled="NO" text="Quiz" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="mqX-sG-fwE">
-                                <rect key="frame" x="16" y="110" width="288" height="187"/>
+                                <rect key="frame" x="7" y="110" width="304" height="187"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="40"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -353,7 +369,7 @@
                         <outlet property="lbChoise2" destination="Yny-Uf-mwb" id="zuF-TJ-oFe"/>
                         <outlet property="lbChoise3" destination="j0P-bN-IhW" id="Rzn-X2-B10"/>
                         <outlet property="problemText" destination="mqX-sG-fwE" id="0F6-NG-Z3C"/>
-                        <segue destination="Nl6-bk-bKI" kind="push" id="Kiw-kl-GGV"/>
+                        <segue destination="Nl6-bk-bKI" kind="push" identifier="tosecondLastView" id="Hlt-Gv-nNG"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="XYy-aD-ZdM" userLabel="First Responder" sceneMemberID="firstResponder"/>

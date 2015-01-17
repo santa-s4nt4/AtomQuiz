@@ -40,7 +40,6 @@
     
     percentageLabel.font = [UIFont fontWithName:@"AdobeMingStd-Light" size:55];
     levelLabel.font = [UIFont fontWithName:@"AdobeMingStd-Light" size:22];
-    
     [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleLightContent]; //ステータスバーを白色にする
     
     //正答率に応じて「一般常識レベル」の位と画像を設定

@@ -60,12 +60,16 @@
     NSURL *url = [NSURL fileURLWithPath:path];
     self.seikai_sound = [[AVAudioPlayer alloc] initWithContentsOfURL:url error:NULL];
     
+    NSString *fuseikai = [[NSBundle mainBundle] pathForResource:@"fuseikai" ofType:@"mp3"];
+    NSURL *sound = [NSURL fileURLWithPath:fuseikai];
+    self.fuseikai_sound = [[AVAudioPlayer alloc] initWithContentsOfURL:sound error:NULL];
+    
     // 問題を格納する可変配列のproblemSetを初期化
     problemSet = [[NSMutableArray alloc] init];
     
     
     // 例　[self addProblem:@"1月1日は何の日？" c1:@"クリスマス" c2:@"元旦" c3:@"大晦日" ans:2];
-    // ======================     ここから下に命令を追加してください。   ==================
+    // ======================     ここから下に命令を追加   ==================
     [self addProblem:@"亜鉛" c1:@"Zn" c2:@"He" c3:@"Mg" ans:1];
     [self addProblem:@"アルゴン" c1:@"Ne" c2:@"Ar" c3:@"Al" ans:2];
     [self addProblem:@"窒素" c1:@"O" c2:@"P" c3:@"N" ans:3];
@@ -166,7 +170,10 @@
         correctAnswers++;
         [self.seikai_sound play];
         //[NSThread sleepForTimeInterval:2.04f]; //2.04秒待ってから動く動作
+    }else{
+        [self.fuseikai_sound play];
     }
+    
     // 次の問題へ
     [self nextProblem];
 }
@@ -179,7 +186,10 @@
         correctAnswers++;
         [self.seikai_sound play];
         //[NSThread sleepForTimeInterval:2.04f]; //2.04秒待ってから動く動作
+    }else{
+        [self.fuseikai_sound play];
     }
+    
     // 次の問題へ
     [self nextProblem];
 }
@@ -192,7 +202,10 @@
         correctAnswers++;
         [self.seikai_sound play];
         //[NSThread sleepForTimeInterval:2.04f]; //2.04秒待ってから動く動作
+    }else{
+        [self.fuseikai_sound play];
     }
+    
     // 次の問題へ
     [self nextProblem];
 }

@@ -8,6 +8,8 @@
 
 #import "secondQuizViewController.h"
 
+#import "secondLastViewController.h"
+
 @interface secondQuizViewController ()
 
 @end
@@ -60,43 +62,35 @@
     NSURL *url = [NSURL fileURLWithPath:path];
     self.seikai_sound = [[AVAudioPlayer alloc] initWithContentsOfURL:url error:NULL];
     
+    NSString *fuseikai = [[NSBundle mainBundle] pathForResource:@"fuseikai" ofType:@"mp3"];
+    NSURL *sound = [NSURL fileURLWithPath:fuseikai];
+    self.fuseikai_sound = [[AVAudioPlayer alloc] initWithContentsOfURL:sound error:NULL];
+    
     // 問題を格納する可変配列のproblemSetを初期化
     problemSet = [[NSMutableArray alloc] init];
     
     
     // 例　[self addProblem:@"1月1日は何の日？" c1:@"クリスマス" c2:@"元旦" c3:@"大晦日" ans:2];
     // ======================     ここから下に命令を追加してください。   ==================
-    [self addProblem:@"亜鉛" c1:@"Zn" c2:@"He" c3:@"Mg" ans:1];
-    [self addProblem:@"アルゴン" c1:@"Ne" c2:@"Ar" c3:@"Al" ans:2];
-    [self addProblem:@"窒素" c1:@"O" c2:@"P" c3:@"N" ans:3];
-    [self addProblem:@"硫黄" c1:@"S" c2:@"Si" c3:@"Hg" ans:1];
-    [self addProblem:@"水素" c1:@"He" c2:@"H" c3:@"Cu" ans:2];
-    [self addProblem:@"ヘリウム" c1:@"He" c2:@"Au" c3:@"Ag" ans:1];
-    [self addProblem:@"ホウ素" c1:@"I" c2:@"F" c3:@"B" ans:3];
-    [self addProblem:@"ヨウ素" c1:@"F" c2:@"I" c3:@"B" ans:2];
-    [self addProblem:@"フッ素" c1:@"B" c2:@"I" c3:@"F" ans:3];
-    [self addProblem:@"塩素" c1:@"Cl" c2:@"Cu" c3:@"Ca" ans:1];
-    [self addProblem:@"カリウム" c1:@"P" c2:@"Ca" c3:@"K" ans:3];
-    [self addProblem:@"カルシウム" c1:@"K" c2:@"Ca" c3:@"Ne" ans:2];
-    [self addProblem:@"ネオン" c1:@"S" c2:@"He" c3:@"Ne" ans:3];
-    [self addProblem:@"炭素" c1:@"C" c2:@"Na" c3:@"Pb" ans:1];
-    [self addProblem:@"鉛" c1:@"Hg" c2:@"Pb" c3:@"Li" ans:2];
-    [self addProblem:@"スズ" c1:@"H" c2:@"S" c3:@"Sn" ans:3];
-    [self addProblem:@"白金(プラチナ)" c1:@"Pt" c2:@"Pb" c3:@"Si" ans:1];
-    [self addProblem:@"ケイ素" c1:@"Cu" c2:@"Si" c3:@"Ag" ans:2];
-    [self addProblem:@"水銀" c1:@"H" c2:@"Ag" c3:@"Hg" ans:3];
-    [self addProblem:@"リン" c1:@"P" c2:@"I" c3:@"H" ans:1];
-    [self addProblem:@"金" c1:@"Ag" c2:@"Au" c3:@"Cu" ans:2];
-    [self addProblem:@"ベリリウム" c1:@"Mg" c2:@"Li" c3:@"Be" ans:3];
-    [self addProblem:@"マグネシウム" c1:@"Mg" c2:@"Al" c3:@"Fe" ans:1];
-    [self addProblem:@"鉄" c1:@"Pt" c2:@"Fe" c3:@"Cu" ans:2];
-    [self addProblem:@"バリウム" c1:@"Be" c2:@"B" c3:@"Ba" ans:3];
-    [self addProblem:@"アルミニウム" c1:@"Al" c2:@"Au" c3:@"Ne" ans:1];
-    [self addProblem:@"銀" c1:@"Cu" c2:@"Ag" c3:@"Hg" ans:2];
-    [self addProblem:@"銅" c1:@"Ag" c2:@"Au" c3:@"Cu" ans:3];
-    [self addProblem:@"リチウム" c1:@"Li" c2:@"Ne" c3:@"Ar" ans:1];
-    [self addProblem:@"ナトリウム" c1:@"Ne" c2:@"Na" c3:@"N" ans:2];
-    [self addProblem:@"酸素" c1:@"H" c2:@"C" c3:@"O" ans:3];
+    [self addProblem:@"水" c1:@"H2O" c2:@"HO" c3:@"HO2" ans:1];
+    [self addProblem:@"アンモニア" c1:@"N3H" c2:@"NH3" c3:@"NH2" ans:2];
+    [self addProblem:@"塩化ナトリウム(食塩)" c1:@"NaCl" c2:@"NAcl" c3:@"ClNa" ans:1];
+    [self addProblem:@"水素" c1:@"O2" c2:@"H2" c3:@"N2" ans:2];
+    [self addProblem:@"二酸化炭素" c1:@"CO2" c2:@"CO3" c3:@"CO" ans:1];
+    [self addProblem:@"エタノール" c1:@"I" c2:@"CH5OH" c3:@"C2H5OH" ans:3];
+    [self addProblem:@"窒素" c1:@"O2" c2:@"N2" c3:@"N" ans:2];
+    [self addProblem:@"炭素" c1:@"N2" c2:@"C2" c3:@"C" ans:3];
+    [self addProblem:@"塩化水素(塩酸)" c1:@"HCl" c2:@"H2Cl" c3:@"HCl2" ans:1];
+    [self addProblem:@"塩化銅" c1:@"CuCl" c2:@"Cu2Cl" c3:@"CuCl2" ans:3];
+    [self addProblem:@"酸化銀" c1:@"AgO" c2:@"Ag2O" c3:@"CuO2" ans:2];
+    [self addProblem:@"酸化鉄" c1:@"Fe2O" c2:@"FeO2" c3:@"FeO" ans:3];
+    [self addProblem:@"酸化銅" c1:@"CuO" c2:@"CuO2" c3:@"Ag2O" ans:1];
+    [self addProblem:@"酸化マグネシウム" c1:@"MgS" c2:@"MgO" c3:@"MgO2" ans:2];
+    [self addProblem:@"硫化鉄" c1:@"Fe2O" c2:@"FeO" c3:@"FeS" ans:3];
+    [self addProblem:@"塩化銅" c1:@"CuCl" c2:@"CuCl2" c3:@"CuO" ans:1];
+    [self addProblem:@"炭酸水素ナトリウム" c1:@"NaCO3" c2:@"NaHCO3" c3:@"Na2CO3" ans:2];
+    [self addProblem:@"硫化銅" c1:@"CuCl" c2:@"CuO" c3:@"CuS" ans:3];
+    [self addProblem:@"炭酸ナトリウム" c1:@"Na2CO3" c2:@"NaHCO3" c3:@"NaCO3" ans:1];
     
     //クイズ問題をランダムに並び替え（シャッフル）
     // シャッフルする場合はコメント解除('//'を先頭から削除)してください
@@ -165,7 +159,10 @@
         correctAnswers++;
         [self.seikai_sound play];
         //[NSThread sleepForTimeInterval:2.04f]; //2.04秒待ってから動く動作
+    }else{
+        [self.fuseikai_sound play];
     }
+    
     // 次の問題へ
     [self nextProblem];
 }
@@ -178,7 +175,10 @@
         correctAnswers++;
         [self.seikai_sound play];
         //[NSThread sleepForTimeInterval:2.04f]; //2.04秒待ってから動く動作
+    }else{
+        [self.fuseikai_sound play];
     }
+    
     // 次の問題へ
     [self nextProblem];
 }
@@ -191,7 +191,10 @@
         correctAnswers++;
         [self.seikai_sound play];
         //[NSThread sleepForTimeInterval:2.04f]; //2.04秒待ってから動く動作
+    }else{
+        [self.fuseikai_sound play];
     }
+    
     // 次の問題へ
     [self nextProblem];
 }
@@ -215,7 +218,7 @@
     } else {
         
         //結果表示画面へのSegueを始動
-        [self performSegueWithIdentifier:@"toLastView" sender:self];
+        [self performSegueWithIdentifier:@"tosecondLastView" sender:self];
     }
 }
 
@@ -225,10 +228,11 @@
     //正答率を算出
     int percentage = (correctAnswers * 100 / totalProblems) ;
     
-    //LastViewController（RVC）のインスタンスを作成し、//
+    //secondLastViewController（RVC）のインスタンスを作成し、//
     //RVCクラスのメンバー変数である「correctPercentage」に値を渡す
-    if ([[segue identifier] isEqualToString:@"toLastView"]) {
-        LastViewController *rvc = (LastViewController*)[segue destinationViewController];
+    //NSLog(@":%@",[segue identifier] );
+    if ([[segue identifier] isEqualToString:@"tosecondLastView"]) {
+        secondLastViewController *rvc = (secondLastViewController*)[segue destinationViewController];
         rvc.correctPercentage = percentage;
     }
 }
@@ -247,5 +251,10 @@
     // Pass the selected object to the new view controller.
 }
 */
+
+-(IBAction)home
+{
+    [self.navigationController popToRootViewControllerAnimated:YES]; //ルートまで一気に戻る
+}
 
 @end

@@ -23,6 +23,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
+    
     atomLabel.font = [UIFont fontWithName:@"AdobeMingStd-Light" size:41];
     chemicalLabel.font = [UIFont fontWithName:@"AdobeMingStd-Light" size:41];
 }

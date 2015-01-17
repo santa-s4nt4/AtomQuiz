@@ -17,6 +17,8 @@
 
 @property AVAudioPlayer *seikai_sound;
 
+@property AVAudioPlayer *fuseikai_sound;
+
 - (void)shuffleProblemSet;
 - (void)nextProblem;
 

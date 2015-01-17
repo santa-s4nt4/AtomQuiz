@@ -16,7 +16,6 @@
 		7B53F63919FBBB2800ED69B5 /* Untitled.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B53F63819FBBB2800ED69B5 /* Untitled.png */; };
 		7B8F60F01A2A163800C8FA56 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B8F60EF1A2A163800C8FA56 /* AVFoundation.framework */; };
 		7BA1C76C1A2DD71D00D1BF76 /* seikai.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7BA1C76B1A2DD71D00D1BF76 /* seikai.mp3 */; };
-		7BA1C7821A2DE44900D1BF76 /* start s.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7BA1C7811A2DE44900D1BF76 /* start s.mp3 */; };
 		7BAEB9E419F63DBB0074CD1F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BAEB9E319F63DBB0074CD1F /* main.m */; };
 		7BAEB9E719F63DBB0074CD1F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BAEB9E619F63DBB0074CD1F /* AppDelegate.m */; };
 		7BAEB9EA19F63DBB0074CD1F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BAEB9E919F63DBB0074CD1F /* ViewController.m */; };
@@ -35,6 +34,8 @@
 		7BC5601C1A333D0D002A3E26 /* secondProblem.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BC5601B1A333D0D002A3E26 /* secondProblem.m */; };
 		7BC5601F1A333FE7002A3E26 /* secondLastViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BC5601E1A333FE7002A3E26 /* secondLastViewController.m */; };
 		7BF961731A2A0FBA00CD1668 /* AdobeMingStd-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7BF961721A2A0FBA00CD1668 /* AdobeMingStd-Light.otf */; };
+		8110AFED1A6A14F5003F1D32 /* fuseikai.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8110AFEC1A6A14F5003F1D32 /* fuseikai.mp3 */; };
+		81B4A0961A59907A000880D0 /* huseikai.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 81B4A0951A59907A000880D0 /* huseikai.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,7 +60,6 @@
 		7B53F63819FBBB2800ED69B5 /* Untitled.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Untitled.png; sourceTree = "<group>"; };
 		7B8F60EF1A2A163800C8FA56 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		7BA1C76B1A2DD71D00D1BF76 /* seikai.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = seikai.mp3; sourceTree = "<group>"; };
-		7BA1C7811A2DE44900D1BF76 /* start s.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "start s.mp3"; sourceTree = "<group>"; };
 		7BAEB9DE19F63DBB0074CD1F /* Atom Quiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Atom Quiz.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BAEB9E219F63DBB0074CD1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7BAEB9E319F63DBB0074CD1F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -89,6 +89,8 @@
 		7BC5601D1A333FE7002A3E26 /* secondLastViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = secondLastViewController.h; path = ../secondLastViewController.h; sourceTree = "<group>"; };
 		7BC5601E1A333FE7002A3E26 /* secondLastViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = secondLastViewController.m; path = ../secondLastViewController.m; sourceTree = "<group>"; };
 		7BF961721A2A0FBA00CD1668 /* AdobeMingStd-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AdobeMingStd-Light.otf"; sourceTree = "<group>"; };
+		8110AFEC1A6A14F5003F1D32 /* fuseikai.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = fuseikai.mp3; sourceTree = "<group>"; };
+		81B4A0951A59907A000880D0 /* huseikai.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = huseikai.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,8 +144,9 @@
 			children = (
 				7BAEB9E519F63DBB0074CD1F /* AppDelegate.h */,
 				7BAEB9E619F63DBB0074CD1F /* AppDelegate.m */,
-				7BA1C7811A2DE44900D1BF76 /* start s.mp3 */,
 				7BA1C76B1A2DD71D00D1BF76 /* seikai.mp3 */,
+				8110AFEC1A6A14F5003F1D32 /* fuseikai.mp3 */,
+				81B4A0951A59907A000880D0 /* huseikai.mp3 */,
 				7BF961721A2A0FBA00CD1668 /* AdobeMingStd-Light.otf */,
 				7B53F63619FBA4E500ED69B5 /* HB.png */,
 				7B53F63819FBBB2800ED69B5 /* Untitled.png */,
@@ -286,11 +289,12 @@
 				7B53F62A19FB8A7100ED69B5 /* Untitled2.png in Resources */,
 				7BAEB9ED19F63DBB0074CD1F /* Main.storyboard in Resources */,
 				7BF961731A2A0FBA00CD1668 /* AdobeMingStd-Light.otf in Resources */,
-				7BA1C7821A2DE44900D1BF76 /* start s.mp3 in Resources */,
 				7BC560101A332762002A3E26 /* select.jpg in Resources */,
 				7BA1C76C1A2DD71D00D1BF76 /* seikai.mp3 in Resources */,
 				7B53F63719FBA4E500ED69B5 /* HB.png in Resources */,
+				81B4A0961A59907A000880D0 /* huseikai.mp3 in Resources */,
 				7B53F63119FB9D3500ED69B5 /* Untitled4.png in Resources */,
+				8110AFED1A6A14F5003F1D32 /* fuseikai.mp3 in Resources */,
 				7BAEB9F219F63DBB0074CD1F /* LaunchScreen.xib in Resources */,
 				7B53F62C19FB91EF00ED69B5 /* Untitled3.png in Resources */,
 				7BAEB9EF19F63DBB0074CD1F /* Images.xcassets in Resources */,
