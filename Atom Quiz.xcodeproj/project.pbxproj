@@ -28,7 +28,6 @@
 		7BB8A20019FBDCA5004C1BB3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BB8A1FF19FBDCA5004C1BB3 /* Foundation.framework */; };
 		7BB8A20219FBDCBE004C1BB3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BB8A20119FBDCBE004C1BB3 /* CoreGraphics.framework */; };
 		7BB8A20819FC0A79004C1BB3 /* Problem.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB8A20719FC0A79004C1BB3 /* Problem.m */; };
-		7BC560101A332762002A3E26 /* select.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7BC5600F1A332762002A3E26 /* select.jpg */; };
 		7BC560131A3333DF002A3E26 /* secondQuizViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BC560121A3333DF002A3E26 /* secondQuizViewController.m */; };
 		7BC560161A3338D1002A3E26 /* selectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BC560151A3338D1002A3E26 /* selectViewController.m */; };
 		7BC5601C1A333D0D002A3E26 /* secondProblem.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BC5601B1A333D0D002A3E26 /* secondProblem.m */; };
@@ -36,6 +35,8 @@
 		7BF961731A2A0FBA00CD1668 /* AdobeMingStd-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7BF961721A2A0FBA00CD1668 /* AdobeMingStd-Light.otf */; };
 		8110AFED1A6A14F5003F1D32 /* fuseikai.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8110AFEC1A6A14F5003F1D32 /* fuseikai.mp3 */; };
 		8163341D1A6A5AC50071CDE1 /* ヒラギノ丸ゴ ProN W4.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8163341C1A6A5AC50071CDE1 /* ヒラギノ丸ゴ ProN W4.otf */; };
+		81636D851A7CB40900AE6B06 /* select.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 81636D841A7CB40900AE6B06 /* select.jpg */; };
+		81AD83531AA1D86A009C7EBD /* iPad.Storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AD83521AA1D86A009C7EBD /* iPad.Storyboard */; };
 		81B4A0961A59907A000880D0 /* huseikai.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 81B4A0951A59907A000880D0 /* huseikai.mp3 */; };
 /* End PBXBuildFile section */
 
@@ -80,7 +81,6 @@
 		7BB8A20119FBDCBE004C1BB3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		7BB8A20619FC0A79004C1BB3 /* Problem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Problem.h; path = ../Problem.h; sourceTree = "<group>"; };
 		7BB8A20719FC0A79004C1BB3 /* Problem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Problem.m; path = ../Problem.m; sourceTree = "<group>"; };
-		7BC5600F1A332762002A3E26 /* select.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = select.jpg; sourceTree = "<group>"; };
 		7BC560111A3333DF002A3E26 /* secondQuizViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = secondQuizViewController.h; path = ../secondQuizViewController.h; sourceTree = "<group>"; };
 		7BC560121A3333DF002A3E26 /* secondQuizViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = secondQuizViewController.m; path = ../secondQuizViewController.m; sourceTree = "<group>"; };
 		7BC560141A3338D1002A3E26 /* selectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = selectViewController.h; path = ../selectViewController.h; sourceTree = "<group>"; };
@@ -92,6 +92,8 @@
 		7BF961721A2A0FBA00CD1668 /* AdobeMingStd-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AdobeMingStd-Light.otf"; sourceTree = "<group>"; };
 		8110AFEC1A6A14F5003F1D32 /* fuseikai.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = fuseikai.mp3; sourceTree = "<group>"; };
 		8163341C1A6A5AC50071CDE1 /* ヒラギノ丸ゴ ProN W4.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ヒラギノ丸ゴ ProN W4.otf"; sourceTree = "<group>"; };
+		81636D841A7CB40900AE6B06 /* select.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = select.jpg; sourceTree = "<group>"; };
+		81AD83521AA1D86A009C7EBD /* iPad.Storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = iPad.Storyboard; sourceTree = "<group>"; };
 		81B4A0951A59907A000880D0 /* huseikai.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = huseikai.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -152,12 +154,13 @@
 				7BF961721A2A0FBA00CD1668 /* AdobeMingStd-Light.otf */,
 				8163341C1A6A5AC50071CDE1 /* ヒラギノ丸ゴ ProN W4.otf */,
 				7B53F63619FBA4E500ED69B5 /* HB.png */,
+				81636D841A7CB40900AE6B06 /* select.jpg */,
 				7B53F63819FBBB2800ED69B5 /* Untitled.png */,
 				7B53F62819FB8A7100ED69B5 /* Untitled2.png */,
 				7B53F62B19FB91EE00ED69B5 /* Untitled3.png */,
 				7B53F63019FB9D3500ED69B5 /* Untitled4.png */,
-				7BC5600F1A332762002A3E26 /* select.jpg */,
 				7BAEB9EB19F63DBB0074CD1F /* Main.storyboard */,
+				81AD83521AA1D86A009C7EBD /* iPad.Storyboard */,
 				7BAEB9E819F63DBB0074CD1F /* ViewController.h */,
 				7BAEB9E919F63DBB0074CD1F /* ViewController.m */,
 				7BC560141A3338D1002A3E26 /* selectViewController.h */,
@@ -289,11 +292,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				7B53F63919FBBB2800ED69B5 /* Untitled.png in Resources */,
+				81AD83531AA1D86A009C7EBD /* iPad.Storyboard in Resources */,
 				7B53F62A19FB8A7100ED69B5 /* Untitled2.png in Resources */,
 				8163341D1A6A5AC50071CDE1 /* ヒラギノ丸ゴ ProN W4.otf in Resources */,
+				81636D851A7CB40900AE6B06 /* select.jpg in Resources */,
 				7BAEB9ED19F63DBB0074CD1F /* Main.storyboard in Resources */,
 				7BF961731A2A0FBA00CD1668 /* AdobeMingStd-Light.otf in Resources */,
-				7BC560101A332762002A3E26 /* select.jpg in Resources */,
 				7BA1C76C1A2DD71D00D1BF76 /* seikai.mp3 in Resources */,
 				7B53F63719FBA4E500ED69B5 /* HB.png in Resources */,
 				81B4A0961A59907A000880D0 /* huseikai.mp3 in Resources */,
@@ -450,7 +454,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Yoriko Naruse";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Atom Quiz/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
@@ -464,7 +468,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Yoriko Naruse";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Atom Quiz/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
