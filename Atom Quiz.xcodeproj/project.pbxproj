@@ -36,7 +36,7 @@
 		8110AFED1A6A14F5003F1D32 /* fuseikai.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8110AFEC1A6A14F5003F1D32 /* fuseikai.mp3 */; };
 		8163341D1A6A5AC50071CDE1 /* ヒラギノ丸ゴ ProN W4.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8163341C1A6A5AC50071CDE1 /* ヒラギノ丸ゴ ProN W4.otf */; };
 		81636D851A7CB40900AE6B06 /* select.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 81636D841A7CB40900AE6B06 /* select.jpg */; };
-		81AD83531AA1D86A009C7EBD /* iPad.Storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AD83521AA1D86A009C7EBD /* iPad.Storyboard */; };
+		81AD83571AA21C29009C7EBD /* iPad.Storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AD83561AA21C29009C7EBD /* iPad.Storyboard */; };
 		81B4A0961A59907A000880D0 /* huseikai.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 81B4A0951A59907A000880D0 /* huseikai.mp3 */; };
 /* End PBXBuildFile section */
 
@@ -93,7 +93,7 @@
 		8110AFEC1A6A14F5003F1D32 /* fuseikai.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = fuseikai.mp3; sourceTree = "<group>"; };
 		8163341C1A6A5AC50071CDE1 /* ヒラギノ丸ゴ ProN W4.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ヒラギノ丸ゴ ProN W4.otf"; sourceTree = "<group>"; };
 		81636D841A7CB40900AE6B06 /* select.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = select.jpg; sourceTree = "<group>"; };
-		81AD83521AA1D86A009C7EBD /* iPad.Storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = iPad.Storyboard; sourceTree = "<group>"; };
+		81AD83561AA21C29009C7EBD /* iPad.Storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = iPad.Storyboard; sourceTree = "<group>"; };
 		81B4A0951A59907A000880D0 /* huseikai.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = huseikai.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -160,7 +160,7 @@
 				7B53F62B19FB91EE00ED69B5 /* Untitled3.png */,
 				7B53F63019FB9D3500ED69B5 /* Untitled4.png */,
 				7BAEB9EB19F63DBB0074CD1F /* Main.storyboard */,
-				81AD83521AA1D86A009C7EBD /* iPad.Storyboard */,
+				81AD83561AA21C29009C7EBD /* iPad.Storyboard */,
 				7BAEB9E819F63DBB0074CD1F /* ViewController.h */,
 				7BAEB9E919F63DBB0074CD1F /* ViewController.m */,
 				7BC560141A3338D1002A3E26 /* selectViewController.h */,
@@ -292,7 +292,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7B53F63919FBBB2800ED69B5 /* Untitled.png in Resources */,
-				81AD83531AA1D86A009C7EBD /* iPad.Storyboard in Resources */,
+				81AD83571AA21C29009C7EBD /* iPad.Storyboard in Resources */,
 				7B53F62A19FB8A7100ED69B5 /* Untitled2.png in Resources */,
 				8163341D1A6A5AC50071CDE1 /* ヒラギノ丸ゴ ProN W4.otf in Resources */,
 				81636D851A7CB40900AE6B06 /* select.jpg in Resources */,
