@@ -19,6 +19,21 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    // 機種の取得
+    NSString *modelname = [[UIDevice currentDevice] model];
+    UIStoryboard *mainStoryboard;
+    if ( ![modelname hasPrefix:@"iPad"] ) {
+        NSLog(@"iPadじゃない");
+        mainStoryboard = [UIStoryboard storyboardWithName:@"Main" bundle: nil];
+        
+    } else {
+        NSLog(@"iPadである");
+        mainStoryboard = [UIStoryboard storyboardWithName:@"iPad" bundle: nil];
+    }
+    UINavigationController *yourController = (UINavigationController *)[mainStoryboard instantiateViewControllerWithIdentifier:@"navigationVC"];
+    self.window.rootViewController = yourController;
+
     return YES;
 }
 

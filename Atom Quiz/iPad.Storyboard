@@ -7,7 +7,7 @@
         <!--Navigation Controller-->
         <scene sceneID="zCW-5Y-eN5">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="a8c-co-Icq" sceneMemberID="viewController">
+                <navigationController storyboardIdentifier="navigationVC" automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="a8c-co-Icq" sceneMemberID="viewController">
                     <toolbarItems/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPad"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="YMw-4R-0Sf">
@@ -21,7 +21,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kns-SZ-wI5" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-614.39999999999998" y="-55.853333333333332"/>
+            <point key="canvasLocation" x="-1327" y="179"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Ss6-4u-g88">
@@ -32,11 +32,12 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Untitled.png" id="RRS-KV-Efa">
-                                <rect key="frame" x="0.0" y="0.0" width="270" height="662"/>
+                                <rect key="frame" x="0.0" y="0.0" width="776" height="1024"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <inset key="insetFor6xAndEarlier" minX="12" minY="0.0" maxX="-12" maxY="0.0"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="nZu-2h-NtF">
-                                <rect key="frame" x="265" y="636" width="238" height="61"/>
+                                <rect key="frame" x="265" y="337" width="238" height="61"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="STHeitiTC-Light" family="Heiti TC" pointSize="41"/>
                                 <state key="normal" title="start">
@@ -48,7 +49,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Mb9-P3-qlk">
-                                <rect key="frame" x="265" y="834" width="238" height="54"/>
+                                <rect key="frame" x="265" y="733" width="238" height="54"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="STHeitiTC-Light" family="Heiti TC" pointSize="41"/>
                                 <state key="normal" title="facebook">
@@ -60,7 +61,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="dAo-f1-iGS">
-                                <rect key="frame" x="265" y="739" width="238" height="53"/>
+                                <rect key="frame" x="265" y="522" width="238" height="53"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="STHeitiTC-Light" family="Heiti TC" pointSize="41"/>
                                 <state key="normal" title="explanation">
@@ -72,7 +73,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="fUm-wD-f70">
-                                <rect key="frame" x="265" y="930" width="238" height="54"/>
+                                <rect key="frame" x="265" y="921" width="238" height="54"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="STHeitiTC-Light" family="Heiti TC" pointSize="41"/>
                                 <state key="normal" title="twitter">
@@ -92,7 +93,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GX0-k9-bz3" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-146" y="179"/>
+            <point key="canvasLocation" x="-446" y="179"/>
         </scene>
         <!--Select View Controller-->
         <scene sceneID="c4K-uQ-IUs">
@@ -107,21 +108,21 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="原子記号" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="DWl-cI-SVP">
-                                <rect key="frame" x="41" y="579" width="686" height="61"/>
+                                <rect key="frame" x="41" y="350" width="686" height="61"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="41"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="化学式" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="B04-6o-vuO">
-                                <rect key="frame" x="41" y="711" width="686" height="61"/>
+                                <rect key="frame" x="41" y="523" width="686" height="61"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="41"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="EuL-ci-o5g">
-                                <rect key="frame" x="41" y="579" width="686" height="61"/>
+                                <rect key="frame" x="41" y="350" width="686" height="61"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="41"/>
                                 <state key="normal">
@@ -132,20 +133,8 @@
                                     <segue destination="qSj-3r-aF2" kind="push" id="eDm-zy-0mV"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="2T3-dR-cbq">
-                                <rect key="frame" x="41" y="843" width="686" height="61"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="STHeitiTC-Light" family="Heiti TC" pointSize="41"/>
-                                <state key="normal" title="home">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="home" destination="e6f-kj-DS1" eventType="touchUpInside" id="buu-nT-Xhp"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="qKH-BS-0pk">
-                                <rect key="frame" x="41" y="711" width="686" height="61"/>
+                                <rect key="frame" x="41" y="523" width="686" height="61"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="41"/>
                                 <state key="normal">
@@ -154,6 +143,18 @@
                                 </state>
                                 <connections>
                                     <segue destination="dY2-g3-BYG" kind="push" id="6Md-7D-KZP"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="2T3-dR-cbq">
+                                <rect key="frame" x="41" y="731" width="686" height="61"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="STHeitiTC-Light" family="Heiti TC" pointSize="41"/>
+                                <state key="normal" title="home">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="home" destination="e6f-kj-DS1" eventType="touchUpInside" id="buu-nT-Xhp"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -168,7 +169,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Xdx-bP-wdE" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="473.59999999999997" y="-55.853333333333332"/>
+            <point key="canvasLocation" x="505" y="179"/>
         </scene>
         <!--Quiz View Controller-->
         <scene sceneID="B2V-lQ-k3W">
@@ -286,12 +287,12 @@
                         <outlet property="lbChoise2" destination="xXf-NX-wYU" id="VTy-gL-EzT"/>
                         <outlet property="lbChoise3" destination="X5t-lv-JVG" id="LBo-oR-jtb"/>
                         <outlet property="problemText" destination="gRN-rh-1Sk" id="g6I-Uz-mAZ"/>
-                        <segue destination="dPa-lk-NVh" kind="push" id="pbp-Rf-eca"/>
+                        <segue destination="dPa-lk-NVh" kind="push" identifier="toLastView" id="pbp-Rf-eca"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6ot-JS-pWI" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1073.5999999999999" y="-635.21333333333337"/>
+            <point key="canvasLocation" x="1397" y="-492"/>
         </scene>
         <!--Second Quiz View Controller-->
         <scene sceneID="TkZ-AK-WTd">
@@ -409,12 +410,12 @@
                         <outlet property="lbChoise2" destination="jh2-lJ-zUR" id="xxp-oT-fjg"/>
                         <outlet property="lbChoise3" destination="Kks-kh-asz" id="SkJ-jY-LxU"/>
                         <outlet property="problemText" destination="QUe-gn-Ghj" id="CZz-Ee-uYA"/>
-                        <segue destination="39p-6A-8vg" kind="push" id="vCA-Sp-1Ks"/>
+                        <segue destination="39p-6A-8vg" kind="push" identifier="tosecondLastView" id="vCA-Sp-1Ks"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Z6V-dg-tb6" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1073.5999999999999" y="585.98666666666668"/>
+            <point key="canvasLocation" x="1397" y="773"/>
         </scene>
         <!--Last View Controller-->
         <scene sceneID="JyK-Rx-PKv">
@@ -490,7 +491,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dq1-ZO-HT5" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1619.7333333333333" y="-635.21333333333337"/>
+            <point key="canvasLocation" x="2303" y="-492"/>
         </scene>
         <!--Second Last View Controller-->
         <scene sceneID="kFs-oL-RV8">
@@ -566,7 +567,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PSp-L3-0bN" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1619.7333333333333" y="585.98666666666668"/>
+            <point key="canvasLocation" x="2291" y="773"/>
         </scene>
     </scenes>
     <resources>
